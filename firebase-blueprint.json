@@ -1,0 +1,24 @@
+{
+  "entities": {
+    "heartfeltNote": {
+      "title": "Heartfelt Note",
+      "description": "A note on the golden message wall.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "text": { "type": "string" },
+        "sender": { "type": "string" },
+        "color": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "rotation": { "type": "number" }
+      },
+      "required": ["id", "text", "sender", "color", "createdAt", "rotation"]
+    }
+  },
+  "firestore": {
+    "heartfeltNotes": {
+      "schema": "heartfeltNote",
+      "description": "The messages on the Dad's Golden Message Wall."
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Father's Day Tribute",
+  "description": "An interactive, ultra-premium cinematic tribute website for Father's Day.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
